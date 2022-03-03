@@ -1,0 +1,19 @@
+main {
+    height: 75vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;   
+      
+    p {
+        height: 600px;
+        width: 600px;
+        -webkit-text-stroke: 0.2px black;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+      }
+    .img__index {
+        height: 600px;
+        width: 600px;
+      }   
+  }

@@ -1,0 +1,28 @@
+.nav {
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.02);
+    position: top;
+    z-index: 100;
+    ul li {
+        margin: 2.5vh;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 130%;
+        transition: all 0.5s ease-in-out;
+        margin-left: 5vh;
+        margin-right: 5vh;  
+      }
+    li:hover {
+        transform: scale(1.2);        
+      }
+    li a:hover {
+        color: yellow;
+      }    
+    a {
+        font-size: 130%;
+        color: white;
+        -webkit-text-stroke: .2px black;
+      } 
+  }

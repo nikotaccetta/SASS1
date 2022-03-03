@@ -1,0 +1,25 @@
+header {
+    height: 10vh;
+    width: auto;
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.02));
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    .header__iconod {
+        height: 8vh;
+        width: 8vh;
+      }
+    .header__iconoi {
+        height: 8vh;
+        width: 8vh;
+        transform: scaleX(-1);
+      }
+    .header__titulo {
+        font-size: 4vh;
+        color: white;
+        -webkit-text-stroke: 0.2px black;
+        margin-bottom: 1vh;
+      }
+
+  }
