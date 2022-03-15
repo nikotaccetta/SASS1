@@ -25,9 +25,25 @@ $redes: (
 @each $red, $color in $redes {
    .btn--#{$red} {
        background-color: $color;
+       @extend .icon-social;
    }
 }
 
+.icon-social {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
 
+@mixin sizes($width, $height, $color) {
+    height: $height;
+    width: $width;
+    background-attachment: $color;
+ }
+
+ .box {
+    @include sizes(500px, 50px);
+ }
+
+ 
  
 
