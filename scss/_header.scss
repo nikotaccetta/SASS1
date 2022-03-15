@@ -1,7 +1,7 @@
 header {
-    height: 10vh;
+    height: $alto_header;
     width: auto;
-    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.02));
+    background-image: $degradado;
     display: flex;
     justify-content: center;
     text-align: center;

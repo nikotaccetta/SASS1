@@ -1,0 +1,33 @@
+//each
+
+@each $var in red, blue, green, purple {
+    .#{$var} {
+        color: $var;
+        height: $alto_header / 2;
+    }
+}
+
+
+@each $var in facebook, instagram, pinterest, twitter {
+    .social-#{$var} {
+        background-color: url("../img/#{var}.png");
+    }
+}
+
+// maps //
+
+$redes: ( 
+        twitter: #55acee,
+        facebook:  #3a5795,
+        pinterest: #C25E30
+); 
+
+@each $red, $color in $redes {
+   .btn--#{$red} {
+       background-color: $color;
+   }
+}
+
+
+ 
+
